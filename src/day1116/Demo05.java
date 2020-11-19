@@ -23,8 +23,8 @@ public class Demo05 {
         x = input.nextInt();
         y = x > 5 ? x : -x;
         z = y > x ? y : 5;
-        System.out.printf("x = %s \n",x);
-        System.out.printf("y = %s \n",y);
+        System.out.printf("x = %d \n",x);
+        System.out.printf("y = %d \n",y);
         System.out.printf("z = %s \n",z);
         demofor1();
         demofor2();
